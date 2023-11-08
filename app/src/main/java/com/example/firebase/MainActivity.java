@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
-
+//Shamraiz Maqsoodgi
     private void signUpUser(String email, String password) {
         mAuth.createUserWithEmailAndPassword(email, password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
             @Override
